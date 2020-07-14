@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form" id="form">
+            <h1>register with us</h1>
+            <div class="form-control">
+                <label for="username">username</label>
+                <input id="username" type="text" placeholder="username" autocomplete="off">
+                <small>error message</small>
+            </div> 
+            <div class="form-control">
+                <label for="email">email</label>
+                <input id="email" type="text" placeholder="email" autocomplete="off">
+                <small>error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">password</label>
+                <input id="password" type="password" placeholder="password" autocomplete="off">
+                <small>error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password1">confirm password</label>
+                <input id="password1" type="password" placeholder="enter password again" autocomplete="off">
+                <small>error message</small>
+            </div>
+            <button class="btn" id="button" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
